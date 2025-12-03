@@ -1,78 +1,69 @@
-📊 STUDENT DATA ANALYSIS USING NUMPY, PANDAS, SEABORN & MATPLOTLIB
+🌟 STUDENT DATA ANALYSIS PROJECT
 
-This project performs DATA CLEANING, ANALYSIS, and VISUALIZATION on student data using Python.
+Using NumPy • Pandas • Seaborn • Matplotlib
+A complete data-analysis pipeline that performs cleaning, exploration, statistical analysis, and visualization on student performance data.
 
-🗂️ PROJECT STRUCTURE
-├── student_Data.csv
-├── student_1.py
-└── README.md
+📁 Project Structure
+📦 Student-Analysis
+ ┣ 📄 student_Data.csv
+ ┣ 📄 student_1.py
+ ┗ 📄 README.md
 
-🚀 FEATURES
-✔ DATA CLEANING
+🚀 Key Features
 
-Removes column name spaces
+🧼 1. Data Cleaning
+      Removes unwanted spaces from column names
+      Replaces missing numeric values using Mean
+      Replaces missing categorical values using Mode
 
-Fills missing numeric values using MEAN
+🧮 2. NumPy Operations
+       Calculate Mean, Maximum, and Minimum of Marks
+       Find average study hours using NumPy arrays
 
-Fills missing text values using MODE
+📊 3. Pandas Analysis
+      Generate complete statistical summary with df.describe
+      Display selected data → Name + Marks
 
-✔ NUMPY OPERATIONS
+📈 4. Visual Insights
+   Visualizations Included:
+      🔵 Scatter Plot — Study Hours vs Marks
+      🟣 Histogram — Attendance Rate Distribution
+      🟠 Bar Chart — Student Marks Comparison
+All visuals are created using Seaborn + Matplotlib for a clean, modern look.
 
-MEAN, MAX, MIN of Marks
+🛠️ Technologies Used
+   Tool / Library                           Purpose
+  🐍 Python 3.x                    	Base programming language
+  🔢 NumPy	                        Numerical operations
+  📊 Pandas                       	Data processing & analysis
+  🎨 Seaborn                      	Advanced visualizations
+  📈 Matplotlib                   	Graph plotting
 
-Mean of Study Hours
+▶️ How to Run the Project
+   1️⃣ Clone the repository
+       git clone https://github.com/your-username/student-analysis.git
+      
+   2️⃣ Install dependencies
+       pip install numpy pandas matplotlib seaborn
+   3️⃣ Execute the program
+       python student_1.py
 
-✔ PANDAS OPERATIONS
+🗂️ Dataset Format
+    Your student_Data.csv must include:
+          Column Name	                                               Description
+           Name	Student                                              full name
+           Gender	                                                  Male/Female/Other
+           StudyHours                                          PerWeek	Total weekly study hours
+           AttendanceRate	                                       Attendance percentage
+           Marks	                                                  Final exam score
 
-Full statistics using df.describe()
 
-Displays selected fields: Name + Marks
+📜 License — Apache 2.0
+     Apache License  
+  Version 2.0, January 2004  
+  http://www.apache.org/licenses/
 
-✔ VISUALIZATIONS
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
 
-📌 Scatter Plot — Study Hours vs Marks
 
-📌 Histogram — Attendance Rate
-
-📌 Bar Chart — Marks Comparison
-
-🛠 TECHNOLOGIES USED
-
-Python 3.x
-
-NumPy
-
-Pandas
-
-Seaborn
-
-Matplotlib
-
-▶️ HOW TO RUN
-1️⃣ Clone Repository
-git clone https://github.com/your-username/student-analysis.git
-
-2️⃣ Install Libraries
-pip install numpy pandas matplotlib seaborn
-
-3️⃣ Run File
-python analysis_script.py
-
-🗃️ DATASET FORMAT
-Column Name	Description
-Name	Student Name
-Gender	Male/Female/Other
-StudyHoursPerWeek	Weekly Study Hours
-AttendanceRate	Attendance Percentage
-Marks	Student Score
-🤝 CONTRIBUTING
-
-Feel free to fork, add features, and submit PRs.
-
-📜 LICENSE (APACHE 2.0)
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
